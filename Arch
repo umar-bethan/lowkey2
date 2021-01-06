@@ -1,0 +1,13 @@
+# Lowkey - Arch Linux build from scratch with pacstrap
+# Umar Bethan [ putrabethan19@gmail.com ]
+# 06.01.21
+
+# 01_lowkey_pre_reqs.sh - Arch Pre-Req Installation
+# As root Execute the following command in a Terminal to get started the 
+
+pacstrap /mnt base base-devel linux linux-firmware grub grub-bios os-prober net-tools networkmanager mtr dhcp mkinitcpio dracut openssh vim wget screen htop
+
+echo " "
+echo "Edit  ./lowkey_config.txt to customize your Distro Settings"
+echo "Execute as root ./02_lowkey_genfstab.sh"
+echo " "
